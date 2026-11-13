@@ -47,7 +47,3 @@ All current metrics are developmental. Preserve the held-out partition until the
 The bundled ZIP is the original EuroSAT RGB release by Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth. The [published archive](https://zenodo.org/records/7711810) contains 27,000 JPEGs across ten classes and has MD5 `f46e308c4d50d4bf32fedad2d3d62f3b`. The project uses the four classes listed above. EuroSAT is distributed under the [MIT license](data/EuroSAT-LICENSE.txt).
 
 Contains modified Copernicus Sentinel data (EuroSAT release, 2018). See the [Copernicus Sentinel Data Legal Notice](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice).
-
-## AI assistance
-
-OpenAI Codex assisted in translating the PF2 plan into code, running checks, and drafting progress materials. Team members should inspect the code, verify the reported results, and describe their own decisions and validation when submitting coursework.
