@@ -1,0 +1,6 @@
+numpy
+pillow
+scipy
+scikit-learn
+threadpoolctl
+
