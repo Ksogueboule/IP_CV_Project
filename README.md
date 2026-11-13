@@ -13,7 +13,7 @@ The manifest contains 11,500 images, with 9,775 development images and 1,725 hel
 | ResNet-18 after one head-only epoch, development fold 0 | 3,258 | 95.98% | 0.9602 |
 | ResNet-18 after one additional layer4 + head epoch, development fold 0 | 3,258 | 98.93% | 0.9891 |
 
-Across the three kNN development folds, 205 of 2,125 river images were classified as herbaceous vegetation. On a 200-image sample from development fold 0, kNN accuracy was 93.5% on clean images, 47.5% at 0.7× brightness, 59.0% at 1.3× brightness, and 90.0% and 77.0% at Gaussian blur σ = 1 and 2 pixels. See [PF3 recording and submission](PF3-RECORDING.md) for the presentation plan.
+Across the three kNN development folds, 205 of 2,125 river images were classified as herbaceous vegetation. On a 200-image sample from development fold 0, kNN accuracy was 93.5% on clean images, 47.5% at 0.7× brightness, 59.0% at 1.3× brightness, and 90.0% and 77.0% at Gaussian blur σ = 1 and 2 pixels.
 
 ## Reproduce the development runs
 
