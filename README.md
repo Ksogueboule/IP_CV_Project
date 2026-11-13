@@ -18,7 +18,7 @@ Across the three kNN development folds, 205 of 2,125 river images were classifie
 ## Reproduce the development runs
 
 1. Create a Python 3.12 environment and install `requirements.txt`.
-2. Download `EuroSAT_RGB.zip` from the [authors' release](https://zenodo.org/records/7711810). The published MD5 is `f46e308c4d50d4bf32fedad2d3d62f3b`. Extract into `data/` so `data/EuroSAT_RGB/Forest` is a class directory.
+2. Extract the bundled `data/EuroSAT_RGB.zip` from the repository root with `python -m zipfile -e data/EuroSAT_RGB.zip data`. Skip extraction if `data/EuroSAT_RGB/Forest` already exists from a complete extraction.
 3. Run these commands at the repository root.
 
 ```text
@@ -41,6 +41,12 @@ python cnn_pilot.py --manifest artifacts/manifest/manifest.csv --data-root data/
 ```
 
 All current metrics are developmental. Preserve the held-out partition until the pipeline and evaluation protocol are frozen. For the final report, run all planned CNN folds and preprocessing comparisons, complete the boundary-case review, and record matched inference timing before drawing conclusions against the held-out targets.
+
+## Dataset attribution
+
+The bundled ZIP is the original EuroSAT RGB release by Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth. The [published archive](https://zenodo.org/records/7711810) contains 27,000 JPEGs across ten classes and has MD5 `f46e308c4d50d4bf32fedad2d3d62f3b`. The project uses the four classes listed above. EuroSAT is distributed under the [MIT license](data/EuroSAT-LICENSE.txt).
+
+Contains modified Copernicus Sentinel data (EuroSAT release, 2018). See the [Copernicus Sentinel Data Legal Notice](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice).
 
 ## AI assistance
 

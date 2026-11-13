@@ -1,6 +1,8 @@
 /.venv/
 __pycache__/
 *.py[cod]
-/data/
+/data/*
+!/data/EuroSAT_RGB.zip
+!/data/EuroSAT-LICENSE.txt
 /artifacts/
 
